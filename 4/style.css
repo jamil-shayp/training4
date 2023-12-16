@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+
+
+/* h1{
+    color: green;
+}
+h2{
+    color: green;
+}
+h4{
+    color: green;
+} */
+
+/* multi selector */
+/* h4 , h2, h1{
+    color: green;
+} */
+
+
+/*  class selector */
+
+.heading{
+    /* 1- name */
+/* color: blue; */
+/* 2- rgb */
+/* color: rgb(0, 255, 0); */
+/* 3- HEXA */
+color: #E26EE5;
+}
+/*  id selector */
+#main_heading{
+    color: cadetblue;
+}
+
+
+/* Background */
+.main {
+    /* background-color تغيير لون الخلفية */
+    /* background-color: blue;  */
+    /* وضع خلفية للصورة */
+    background-image: url(./img/img_food.jpg);
+    /* غدم تكرار الخلفية */
+    background-repeat: no-repeat;
+    /* تحديد موضع الصورة */
+    background-position:center;
+    /* حجم الصورة  */
+    background-size: cover;
+    /* طول والعرض */
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom: 5px;
+}
+
+.text p{
+    color: blue;
+    /* -------------- Border */
+    /* border-style: solid; */
+    /* border-left-style: solid;
+    border-width: 1px;
+    border-color: #E26EE5; */
+    /* border: 1px solid green; */
+    border: 4px solid green;
+    border-radius: 5px;
+
+    /* margin الهوامش الخارجية */
+    margin: 10px 20px ;
+    /* padding الهوامش الداخلية */
+    padding: 5px;
+}
+
+/* التحكم بطول وعرض الصورة  */
+.pic img{
+    width: 200px;
+    height: 200px;
+}
+
+

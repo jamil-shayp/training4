@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Noto Sans Arabic', sans-serif;
+    /* الانتقال ضمن الصفحة */
+    scroll-behavior: smooth;
+}
+
+img{
+    /* width:100vw ;
+    height: 100vh; */
+
+    /* width:100em ;
+    height: 100em; */
+
+    /* 1em = 16px  */
+    /* width:1600px ;
+    height: 1600px; */
+}
+
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+        /* display: inline; */
+
+}
+p{
+    font-weight: 700;
+    text-transform: lowercase;
+    /* display: inline; */
+
+}
+
+h2{
+    text-transform: capitalize;
+    text-align: end;
+    /* display: inline; */
+}
+
+h2::selection{
+    color: yellow ;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 1px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin: 100px;
+    /* display: none; */
+}
+
+.link:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+
+.link:active{
+    background-color: blue;
+    color: green;
+}
+
+
+ul li{
+    margin-left: 30px;
+    /* إزالة النقاط من li */
+    list-style: none;
+}
+
+
+.position{
+    position: fixed;
+    /* top right bottom left */
+    bottom: 1px;
+    right : 5px;
+}
+
+
